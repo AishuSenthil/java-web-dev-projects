@@ -7,6 +7,6 @@ public class StudentPractice {
 //        student.setNumberOfCredits();
 //        student.setGpa();
 //        Student student = new Student();
-        System.out.println(student);
+        System.out.println("Name: "+ student.getName());
     }
 }

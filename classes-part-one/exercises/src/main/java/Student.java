@@ -18,15 +18,15 @@ public class Student {
         public String getName(){
                 return name;
         }
-        public void setName(){
+        public void setName(){    //**void - keyword that specifies there should not be any return value
                 this.name = name;
         }
         public int getStudentId(){
                 return studentId;
         }
-        public void setStudentId(){
-                this.studentId = studentId;
-        }
+//        public void setStudentId(){     --> studentId shouldnt be changed so we dont want to set we just want to get
+//                this.studentId = studentId;
+//        }
         public  int getNumberOfCredits(){
                 return numberOfCredits;
         }
